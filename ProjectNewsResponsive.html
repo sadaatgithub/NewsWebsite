@@ -1,0 +1,2619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectNewsResponsive</title>
+    <link rel="stylesheet" href="ProjectNewsResponsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+</head>
+
+<body>
+    
+    <div class="login-box">
+
+        <form action="#">
+         <div><label for="Uname">Username</label>
+            <input type="text" placeholder="Enter User name" name="Uname" required>
+         </div>
+         <div><label for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+         </div>
+            <button type="submit" class="sbmit">SignIn</button>
+         <label class="remember-me">
+             <input type="checkbox" checked="checked" name="remember"> Remember me
+         </label>
+           <div class="container-signin" style="background-color:#f1f1f1">
+             <button type="button" class="cancelbtn">Cancel</button>
+             <span class="psw">Forgot <a href="#">password?</a></span>
+           </div>
+        </form>
+     </div>
+    <main class="main">
+
+        <div class="container">
+
+            <div class="con-logo">
+                <div class="logo-png">
+
+                    <a href="#"><img src="\theNewsImg\Logopng3.png" alt="" class="logopng"></a>
+                </div>
+            </div>
+
+            <div class="con-logo-social">
+                <div class="con-social-tv">
+                    <i class="fa fa-television" aria-hidden="true"></i> <a href="#">watch live tv</a>
+                </div>
+                <div class="con-social-tv">
+                    <i class="fa fa-mobile television" aria-hidden="true"></i><a href="#">DOWNLOAD OUR APP</a>
+
+                </div>
+                <div class="con-social-links">
+                    <h6>FOLLOW US ON &nbsp;&nbsp;<b>&gt;</b></h6>
+                    <div>
+                        <a href=""><i class="fa fa-facebook tooltip" aria-hidden="true"><span
+                                    class="tooltiptext">Facebook</span></i></a>
+                        <a href=""><i class="fa fa-twitter tooltip" aria-hidden="true"><span
+                                    class="tooltiptext">Twitter</span></i></a>
+                        <a href=""><i class="fa fa-youtube-play tooltip" aria-hidden="true"><span
+                                    class="tooltiptext">YouTube</span></i></a>
+                        <a href=""><i class="fa fa-instagram tooltip" aria-hidden="true"><span
+                                    class="tooltiptext">Instagram</span></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="date-time">
+                <span id="date"></span>
+            </div>
+        </div>
+                    <!-- navigation bar starts from here -->
+        <nav>
+            <div class="burgermenu">
+                <!-- <input type="checkbox" id="m-bars">
+                <label for="m-bars" class="bars"><i class="fa fa-bars" aria-hidden="true"></i></label><br> -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+            <ul class="mobile-menu" id="myLinks">
+                <li class="dropdown"><a href="#">India</a>
+                    <div class="blok">
+                        <ul class="menu-area">
+                            <ul>
+                                <li><a href="#">Maharasthtra</a></li>
+                                <li><a href="#">Delhi</a></li>
+                                <li><a href="#">Karnataka</a></li>
+                                <li><a href="#">Tamilnadu</a></li>
+                                <li><a href="#">Telngana</a></li>
+                                <li><a href="#">Uttar Pradesh</a></li>
+                                <li><a href="#">Goa</a></li>
+                                <li><a href="#">Harayana</a></li>
+                                <li><a href="#">Himachal Pradesh</a></li>
+                                <li><a href="#">Punjab</a></li>
+                            </ul>
+                            <ul>
+                                <!-- <h4>Metro City</h4> -->
+                                <li><a href="#">West Bengal</a></li>
+                                <li><a href="#">Gujrat</a></li>
+                                <li><a href="#">Madhya Pradesh</a></li>
+                                <li><a href="#">Bihar</a></li>
+                                <li><a href="#">Chandigarh</a></li>
+                                <li><a href="#">Jammu & Kashmir</a></li>
+                                <li><a href="#">Jarkhand</a></li>
+                                <li><a href="#">Kerala</a></li>
+                                <li><a href="#">Manipur</a></li>
+                            </ul>
+                            <ul>
+                                <!-- <h4>Other City</h4> -->
+                                <li><a href="#">Arunachal Pradesh</a></li>
+                                <li><a href="#">Andhra Pradesh</a></li>
+                                <li><a href="#">Assam</a></li>
+                                <li><a href="#">Chattisgarh</a></li>
+                                <li><a href="#">Manipur</a></li>
+                                <li><a href="#">Meghalaya</a></li>
+                                <li><a href="#">Mizoram</a></li>
+                                <li><a href="#">Nagaland</a></li>
+                                <li><a href="#">Odisha</a></li>
+
+
+                            </ul>
+
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">World</a>
+                    <div class="blok">
+                        <ul class="menu-area">
+                            <ul>
+                                <li><a href="#">US</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Vision 2020: Will mailed-in ballots be delivered on</a></li>
+                                            <li><a href="#">First lawsuit against H-1B wage hikes filed in US</a></li>
+                                            <li><a href="#">'Somethung close' to genocide in China's Xinjiang</a></li>
+                                            <li><a href="#">White House rejects Putin response to US arms</a></li>
+                                            <li><a href="#">Scientist develope new method to block Coronavirus</a></li>
+                                            <li><a href="#">Trump delivered what he promised, say supporters</a></li>
+                                            <li><a href="#">Trump stumps in florida,Georgia,countering signs</a></li>
+                                            <li><a href="#">Trump plays down virus as he steps up pitch for</a></li>
+                                            <li><a href="#">Barack Obama to compain for Biden,Harris</a></li>
+                                            <li><a href="#">Us hoping for two Covid-19 vaccines by end of year</a></li>
+
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Pakistan</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">China gives Pak 2 ships for CPEC sea route security</a></li>
+                                            <li><a href="#">Pak's 1st ever metro train service begins commercial</a>
+                                            </li>
+                                            <li><a href="#">Pakistani PM asks Facebook CEO to ban Islamophobic</a></li>
+                                            <li><a href="#">Nawaz slams army and ISI chiefs for ‘interfering in</a></li>
+                                            <li><a href="#">Pakistan opposition parties hold massive anti-govt</a></li>
+                                            <li><a href="#">With Pakistan's opposition up in arms, will Imran</a></li>
+                                            <li><a href="#">Blast kills 3 in Pakistan city hosting opposition</a></li>
+                                            <li><a href="#">Pakistan's PM Imran Khan accuses French President</a></li>
+                                            <li><a href="#">Pakistan's Opposition alliance all set to hold</a></li>
+                                            <li><a href="#">Pakistan could be next polio-free country: WHO</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">South Asia</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Afghan forces kill top Qaida member al-Masri, one of</a>
+                                            </li>
+                                            <li><a href="#">China illegally occupies Nepal's land at many</a></li>
+                                            <li><a href="#">Suicide bomber kills 18 in Kabul</a></li>
+                                            <li><a href="#">Nepal's Covid-19 infection tally crosses 150,000</a></li>
+                                            <li><a href="#">Bangladeshi court issues death warrant against 1971</a></li>
+                                            <li><a href="#">Sri Lanka lodges appeal against move to de-list LTTE</a>
+                                            </li>
+                                            <li><a href="#">Afghan air strike hits religious school as Taliban</a></li>
+                                            <li><a href="#">Bangladesh professor gets death threat from Islamist</a>
+                                            </li>
+                                            <li><a href="#">Thai protesters give PM Prayuth three-day deadline</a></li>
+                                            <li><a href="#">At least 15 dead in stampede near Pakistan consulate</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">UK</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">UK scientific advisor says coronavirus unlikely to</a></li>
+                                            <li><a href="#">EU to UK on Brexit talks: 'You can't have cake, eat</a></li>
+                                            <li><a href="#">Adding a Sikh ethnic tick box to UK census would</a></li>
+                                            <li><a href="#">Britain partners with Oxford firm to assess</a></li>
+                                            <li><a href="#">Pramod, Lakshmi Mittal's brother, declared bankrupt</a></li>
+                                            <li><a href="#">Millions more head into UK virus lockdowns</a></li>
+                                            <li><a href="#">Act now to curb spiraling Covid-19, EU agency says</a></li>
+                                            <li><a href="#">Rishi Sunak ‘barred for life' from UK pub</a></li>
+                                            <li><a href="#">Punjabi family rescued from Southall gas explosion</a></li>
+                                            <li><a href="#">UK govt under pressure to remove LTTE’s terror tag</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Europe</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Spain PM appeals for public unity, sacrifice in</a></li>
+                                            <li><a href="#">Countries battle rising virus cases as WHO sees</a></li>
+                                            <li><a href="#">Europe becomes second region to cross 250,000 deaths</a>
+                                            </li>
+                                            <li><a href="#">EU farm bill 'fuels ecological destruction,'</a></li>
+                                            <li><a href="#">Poland's president has coronavirus, apologizes to</a></li>
+                                            <li><a href="#">Pakistan's PM Imran Khan accuses French President</a></li>
+                                            <li><a href="#">Dinner off as Italy closes restaurants early in</a></li>
+                                            <li><a href="#">Pope names 13 new cardinals, includes first Black US</a>
+                                            </li>
+                                            <li><a href="#">Spain announces new state of emergency as infections</a>
+                                            </li>
+                                            <li><a href="#">France sees record 52,010 cases in 24 hours</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">China</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">China reports surge in symptomless Covid-19</a></li>
+                                            <li><a href="#">China city spots 137 asymptomatic cases: Official</a></li>
+                                            <li><a href="#">China illegally occupies Nepal's land at many</a></li>
+                                            <li><a href="#">Xi takes swipe at US, slams unilateralism, extreme</a></li>
+                                            <li><a href="#">Xi Jinping invokes Chinese military might with US in</a>
+                                            </li>
+                                            <li><a href="#">China may not recognize British-issued Hong Kong</a></li>
+                                            <li><a href="#">US will probably discuss India-China border</a></li>
+                                            <li><a href="#">Xi says China will not let security, sovereignty</a></li>
+                                            <li><a href="#">China calls for orderly withdrawal of US troops from</a>
+                                            </li>
+                                            <li><a href="#">China defends its Covid-19 vaccine after Bolsonaro's</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Middle East</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">One year on, how is Lebanon's Hariri back?</a></li>
+                                            <li><a href="#">Syria fuel crisis eases as Iran delivers new oil</a></li>
+                                            <li><a href="#">Erdogan confirms Russian S-400 tests despite US</a></li>
+                                            <li><a href="#">US embassy in Turkey issues alert on potential</a></li>
+                                            <li><a href="#">Iran blacklists US ambassador in Iraq, reciprocating</a>
+                                            </li>
+                                            <li><a href="#">Sudan to normalize ties with Israel, in new</a></li>
+                                            <li><a href="#">Turkey's Erdogan says Macron 'needs treatment' over</a></li>
+                                            <li><a href="#">Macron comments provoke Mideast ire, boycotts of</a></li>
+                                            <li><a href="#">Emmanuel Macron needs ‘treatment’: Tayyip Erdogan</a></li>
+                                            <li><a href="#">Israeli minister says Qatar could get F-35s 'sooner</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Rest of World</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">South Korea urges people to get flu vaccinations</a></li>
+                                            <li><a href="#">2/3rds of Chilean voters back rewriting their</a></li>
+                                            <li><a href="#">'Please resign,' Thai opposition tells PM at protest</a>
+                                            </li>
+                                            <li><a href="#">Japan PM Suga sets 2050 deadline for carbon</a></li>
+                                            <li><a href="#">Boat capsizes off Malaysia, 13 Indonesian migrants</a></li>
+                                            <li><a href="#">Images suggest North Korea may be preparing missile</a></li>
+                                            <li><a href="#">Ex-strongman Rajapaksa's son arrested in Lanka</a></li>
+                                            <li><a href="#">Possible MH370 debris from Mozambique brought to</a></li>
+                                            <li><a href="#">Airlander 10: Flying won't be the same again</a></li>
+                                            <li><a href="#">North Korea fires 5 short-range projectiles into sea</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Photos</a>
+                                    <div class="block2 ">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="theNewsImg/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li><a href="#">Videos</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">City</a>
+                    <div class="blok">
+                        <ul class="menu-area menu-area2">
+                            <ul>
+                                <h4>Metro Cities</h4>
+                                <ul>
+                                    <li><a href="#">Delhi</a></li>
+                                    <li><a href="#">Bengaluru</a></li>
+                                    <li><a href="#">Tamilnadu</a></li>
+                                    <li><a href="#">Hyderabad</a></li>
+                                    <li><a href="#">Kolkata</a></li>
+                                    <li><a href="#">Chennai</a></li>
+                                </ul>
+                                <br>
+                                <h4>other cities</h4>
+                                <ul>
+                                    <li><a href="#">Agartala</a></li>
+                                    <li><a href="#">Agra</a></li>
+                                    <li><a href="#">Ajmer</a></li>
+                                    <li><a href="#">Amaravti</a></li>
+                                    <li><a href="#">Ahmedabad</a></li>
+                                    <li><a href="#">Allahabad</a></li>
+                                    <li><a href="#">Amritsar</a></li>
+                                    <li><a href="#">Aurangabad</a></li>
+                                    <li><a href="#">Bareilly</a></li>
+                                    <li><a href="#">Bhopal</a></li>
+
+                                </ul>
+                            </ul>
+                            <ul>
+                                <!-- <h4>OTHER CITIES</h4> -->
+                                <li><a href="#">Bhubaneshwar</a></li>
+                                <li><a href="#">Chandigarh</a></li>
+                                <li><a href="#">Coimbtore</a></li>
+                                <li><a href="#">Cuttack</a></li>
+                                <li><a href="#">Dehradun</a></li>
+                                <li><a href="#">Erode</a></li>
+                                <li><a href="#">Faridabad</a></li>
+                                <li><a href="#">Ghaziabad</a></li>
+                                <li><a href="#">Goa</a></li>
+                                <li><a href="#">Gurgaon</a></li>
+                                <li><a href="#">Guwahati</a></li>
+                                <li><a href="#">Hubbai</a></li>
+                                <li><a href="#">Imphal</a></li>
+                                <li><a href="#">Indore</a></li>
+                                <li><a href="#">Itanagar</a></li>
+                                <li><a href="#">Jaipur</a></li>
+                                <li><a href="#">Jammu</a></li>
+                                <li><a href="#">Jamshedpur</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Jodhpur</a></li>
+                                <li><a href="#">Kanpur</a></li>
+                                <li><a href="#">Kochi</a></li>
+                                <li><a href="#">Kohima</a></li>
+                                <li><a href="#">Kolhapur</a></li>
+                                <li><a href="#">Kozhikode</a></li>
+                                <li><a href="#">Lucknow</a></li>
+                                <li><a href="#">Ludhiana</a></li>
+                                <li><a href="#">Madurai</a></li>
+                                <li><a href="#">Manglore</a></li>
+                                <li><a href="#">Meerut</a></li>
+                                <li><a href="#">Mysore</a></li>
+                                <li><a href="#">Nagpur</a></li>
+                                <li><a href="#">Nashik</a></li>
+                                <li><a href="#">Navi Mumbai</a></li>
+                                <li><a href="#">Noida</a></li>
+                                <li><a href="#">Patna</a></li>
+                                <li><a href="#">Puducherry</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Pune</a></li>
+                                <li><a href="#">Raipur</a></li>
+                                <li><a href="#">Rajkot</a></li>
+                                <li><a href="#">Ranchi</a></li>
+                                <li><a href="#">Srinagar</a></li>
+                                <li><a href="#">Salem</a></li>
+                                <li><a href="#">Shimla</a></li>
+                                <li><a href="#">Surat</a></li>
+                                <li><a href="#">Thane</a></li>
+                                <li><a href="#">Trichy</a></li>
+                                <li><a href="#">Thiruvananthpuram</a></li>
+                                <li><a href="#">Udaipur</a></li>
+                                <li><a href="#">Vadodara</a></li>
+                                <li><a href="#">Varanasi</a></li>
+                                <li><a href="#">Vijaywada</a></li>
+                                <li><a href="#">Vishakhapattam</a></li>
+
+                            </ul>
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Business</a>
+                    <div class="blok">
+                        <ul class="menu-area menu-area2">
+                            <ul>
+                                <li><a href="#">India business</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">The myth today is H-1B visas are all taken by Indian gvt</a>
+                                            </li>
+                                            <li><a href="#">Cloud services are reducing the need to code: Amazon</a>
+                                            </li>
+                                            <li><a href="#">Court grants bail to Malvinder Mohan Singh in bank</a></li>
+                                            <li><a href="#">Nirma, Lafarge cement Rs 9000 crore deal</a></li>
+                                            <li><a href="#">L&T chief Naik pledges 75 of income to</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">International <br> Business</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">How Samsung's ownership may change as heirs take</a></li>
+                                            <li><a href="#">Pfizer not yet ready to release Covid-19 vaccine</a></li>
+                                            <li><a href="#">AMD to buy chip peer Xilinx for 35 billion in data</a></li>
+                                            <li><a href="#">Saudi aims to cancel kafala worker sponsorship</a></li>
+                                            <li><a href="#">Women on 10 flights from Qatar invasively examined</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">GST</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">With GST, we are heading towards Indian Common</a></li>
+                                            <li><a href="#">JLR India brings down prices by average 7, post GST </a></li>
+                                            <li><a href="#">Hyderabad zone may see 14 rise in GST collections</a></li>
+                                            <li><a href="#">48 hours before GST, 1 lakh companies lost</a></li>
+                                            <li><a href="#">The crack team: Those who made GST a reality</a></li>
+                                         
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Budget</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">New, lower income tax rates are 'optional': What it
+                                            </a></li>
+                                            <li><a href="#">Modi govt holds its nerve, Budgets for uncertain
+                                            </a></li>
+                                            <li><a href="#">Govt intends to remove all income tax exemptions in
+                                            </a></li>
+                                            <li><a href="#">The deceptive rise in India’s income tax base
+                                            </a></li>
+                                            <li><a href="#">Union Budget 2020: Decoding old and new tax regime
+                                            </a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Banking</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Central Bank of India Education Loans
+                                            </a></li>
+                                            <li><a href="#">Central Bank of India Loans for Women
+                                            </a></li>
+                                            <li><a href="#">Central Bank of India's Loan Facilities to NRIs
+                                            </a></li>
+                                            <li><a href="#">Bank of Maharashtra MSME/Large Credit Schemes
+                                            </a></li>
+                                            <li><a href="#">Bank of Maharashtra Maha Super Car Loan Scheme</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Sports</a>
+                    <div class="blok">
+                        <ul class="menu-area menuarea2">
+                            <ul>
+                                <li><a href="#">Cricket</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Learned a lot in this year's IPL, says CSK pacer</a></li>
+                                            <li><a href="#">IPL 2020: Coaches from Ruturaj Gaikwad's formative</a></li>
+                                            <li><a href="#">IPL 2020 Live Score: Delhi vs Bangalore</a></li>
+                                            <li><a href="#">Delhi, Bangalore look to snap losing streak in</a></li>
+                                            <li><a href="#">Industry cries 'ambush' as BCCI gets ready to sign</a></li>
+                                            <li><a href="#">Will come back stronger in next year's IPL, says KL</a></li>
+                                            <li><a href="#">How many points are usually enough for an IPL</a></li>
+                                            <li><a href="#">IPL 2020: Imran Tahir pens emotional note for CSK</a></li>
+                                            <li><a href="#">Afghanistan Cricket Board appoints Rahmatullah</a></li>
+                                            <li><a href="#">'A topsy-turvy campaign with failure of holding onto</a></li>
+                                            <li><a href="#">Shane Watson tells CSK he is retiring from ‘all</a></li>
+                                            <li><a href="#">IPL 2020: Coaches from Ruturaj Gaikwad's formative</a></li>
+                                            <li><a href="#">IMG Reliance to market Cricket Australia's 'virtual</a></li>
+                                            <li><a href="#">IPL 2020: Captain Morgan raises a toast, KKR keep</a></li>
+                                          
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">IND vs AUS</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Justin Langer aware of the challenge of handling</a></li>
+                                            <li><a href="#">Rahul ready for 'responsibility and challenge' as</a></li>
+                                            <li><a href="#">'Think beyond Bombay': Srikkanth slams Manjrekar for</a></li>
+                                            <li><a href="#">Young all-rounder Cameron Green makes it to</a></li>
+                                            <li><a href="#">India vs Australia 2020-21 series: Full schedule of</a></li>
+                                            <li><a href="#">India-Australia Boxing Day Test to have crowds of</a></li>
+                                            <li><a href="#">India vs Australia: Probe Surya's exclusion,</a></li>
+                                            <li><a href="#">India vs Australia: Rohit Sharma omission puts</a></li>
+                                            <li><a href="#">Boxing Day Test in Melbourne as dates confirmed for</a></li>
+                                            <li><a href="#">Great opportunity for me to do well: Ishan Porel</a></li>
+                                            <li><a href="#">I let noise get to me last time, couldn't care less</a></li>
+                                            <li><a href="#">Very confident of having crowd during</a></li>
+                                            <li><a href="#">Feels surreal, says Varun Chakravarthy on his</a></li>
+                                            <li><a href="#">Harbhajan slams Surya's omission from Australia tour</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Fotball</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Bayern defender Suele tests positive for COVID-19</a></li>
+                                            <li><a href="#">UEFA suspends Serbia coach, fines FA for delayed</a></li>
+                                            <li><a href="#">Solskjaer blasts Manchester United's no-show in</a></li>
+                                            <li><a href="#">Arteta impressed with new Arsenal signings after win</a></li>
+                                            <li><a href="#">Mourinho aims dig at Real after Bale's first goal</a></li>
+                                            <li><a href="#">Maguire challenges Manchester United to improve home</a></li>
+                                            <li><a href="#">Arsenal beat Manchester United, Spurs up to No. 2 as</a></li>
+                                            <li><a href="#">Real Madrid face Conte, the coach who could have</a></li>
+                                            <li><a href="#">West Ham United boss David Moyes not opposed to</a></li>
+                                            <li><a href="#">Champions League: Colombian stars powering Atalanta</a></li>
+                                            <li><a href="#">Paul Pogba takes blame for 'stupid' penalty mistake</a></li>
+                                            <li><a href="#">AS Roma continue impressive start with win over</a></li>
+                                            <li><a href="#">Serie A upstarts Sassuolo hand Napoli shock defeat</a></li>
+                                            <li><a href="#">Ruthless Real Sociedad march on with fourth La Liga</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Hockey</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Happy to see young hockey players resuming sports</a></li>
+                                            <li><a href="#">Want to improve 'drastically' as player, says Reena</a></li>
+                                            <li><a href="#">Waiting to earn India jersey again, says Dipsan</a></li>
+                                            <li><a href="#">Was very impressed with Netherlands' Blaak's</a></li>
+                                            <li><a href="#">Maharashtra hockey players resume training</a></li>
+                                            <li><a href="#">Peaking at right time crucial for performance at</a></li>
+                                            <li><a href="#">No team bus, use personal cars: Dutch hockey ready</a></li>
+                                            <li><a href="#">Goal is to help team win medal in Tokyo, says Reena</a></li>
+                                            <li><a href="#">Waiting to earn India jersey again, says Dipsan</a></li>
+                                            <li><a href="#">Sports Minister assures help to ailing hockey</a></li>
+                                            <li><a href="#">Determined to improve and find spot in India's team</a></li>
+                                            <li><a href="#">Have been focussing on improving footwork and</a></li>
+                                            <li><a href="#">There is healthy competition within junior women</a></li>
+                                            <li><a href="#">Contributing to India winning Olympic medal my</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Tennis</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">AITA plans camps for elite men and women players</a></li>
+                                            <li><a href="#">Virus concerns causing mental fatigue, says Stefanos</a></li>
+                                            <li><a href="#">Swiatek settles into celebrity status and eyes more</a></li>
+                                            <li><a href="#">French Open could reschedule again but no unilateral</a></li> 
+                                            <li><a href="#">Nadal back in Paris, 'not worried' about past</a></li>
+                                            <li><a href="#">Rublev wins fifth ATP title of season to book Tour</a></li>
+                                            <li><a href="#">Millman claims maiden title with victory at Astana</a></li>
+                                            <li><a href="#">Rutuja Bhosale overcomes travel nightmare to claim</a></li>
+                                            <li><a href="#">Millman to face Mannarino in Astana Open final</a></li>
+                                            <li><a href="#">Rublev beats Anderson in Vienna for his 5th final in</a></li>
+                                            <li><a href="#">Austrian Thiem joins Djokovic in skipping Paris</a></li>
+                                            <li><a href="#">World No. 2 Simona Halep tests positive for COVID-19</a></li>
+                                            <li><a href="#">Reunited with coach, Australian Ash Barty back in</a></li>
+                                            <li><a href="#">Another taste of Rafael Nadal-Roger Federer rivalry</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Athletics</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">AFI fumes at national campers taking leaves</a></li>
+                                            <li><a href="#">Adille Sumariwalla elected as AFI president for 3rd</a></li>
+                                            <li><a href="#">AFI chief warns athletes not to take banned drugs by</a></li>
+                                            <li><a href="#">200-km 'fit India' walkathon flagged off in</a></li>
+                                            <li><a href="#">Sumariwalla to be elected AFI chief for third term</a></li>
+                                            <li><a href="#">Airtel Delhi Half Marathon on Nov 29, organisers to</a></li>
+                                            <li><a href="#">Coleman to miss Olympics after being banned for</a></li>
+                                            <li><a href="#">Delhi Half Marathon to take place on November 29</a></li>
+                                            <li><a href="#">Russian athletics federation staff receive lengthy</a></li>
+                                            <li><a href="#">Unique performance-graded races to assess athletes'</a></li>
+                                            <li><a href="#">Sumariwalla set to become AFI chief for third term,</a></li>
+                                            <li><a href="#">Doping charges against Bahrain's 400m world champion</a></li>
+                                            <li><a href="#">AFI indefinitely postpones next month's National</a></li>
+                                            <li><a href="#">Cheptegei misses out on a medal at world</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Shooting</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">National Shooting Championships for 2020 might be</a></li>
+                                            <li><a href="#">ISSF WC Final in 2008 was like redemption for me:</a></li>
+                                            <li><a href="#">Elavenil wins gold in Sheikh Russel Air Rifle</a></li>
+                                            <li><a href="#">Elavenil, Tushar to compete in Sheikh Russel Online</a></li>
+                                            <li><a href="#">Torrential rain damages equipment at Narang's Gun</a></li>
+                                            <li><a href="#">Decision on 2020 National Shooting Championships</a></li>
+                                            <li><a href="#">Shooters, coaches reporting for Tokyo Olympic camp</a></li>
+                                            <li><a href="#">Narang’s Gun For Glory Shooting Academy goes under</a></li>
+                                            <li><a href="#">SAI and NRAI to jointly bio-secure national shooting</a></li>
+                                            <li><a href="#">Two-month shooting camp for Olympic probables from</a></li>
+                                            <li><a href="#">Yashaswini wins gold in online shooting meet</a></li>
+                                            <li><a href="#">India's Visnu wins gold in 10m air rifle event at</a></li>
+                                            <li><a href="#">Shooting 'not a part' of Hamilton's proposed 2026</a></li>
+                                            <li><a href="#">NRAI tells shooters optional camp postponed, SAI</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Vollyball</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Special children win volleyball championships</a></li>
+                                            <li><a href="#">Indian spikers seal Olympic qualification berth</a></li>
+                                            <li><a href="#">Palanisamy volleyball academy opens</a></li>
+                                            <li><a href="#">Serbian Dragan Mihailovic appointed Indian men's</a></li>
+                                            <li><a href="#">Double delight for Kerala in Federation Cup</a></li>
+                                            <li><a href="#">India beat Pakistan to win men's volleyball gold in</a></li>
+                                            <li><a href="#">Indian women's volleyball team wins gold in SAG</a></li>
+                                            <li><a href="#">Maharashtra Volleyball C'ship: Nagpur men spikers</a></li>
+                                            <li><a href="#">India's best volleyball players keep Goa's sleepy</a></li>
+                                            <li><a href="#">Dominant Kerala women retain national volleyball</a></li>
+                                            <li><a href="#">Kerala edge Railways in thriller to retain Fed Cup</a></li>
+                                            
+                                            
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Chess</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">R Vaishali wins gold in online Asian chess meet</a></li>
+                                            <li><a href="#">India women top Swiss system preliminary to enter</a></li>
+                                            <li><a href="#">Magnus Carlsen often wins even if he is far from his</a></li>
+                                            <li><a href="#">Asian Online Team Chess: Indian men in quarterfinals</a></li>
+                                            <li><a href="#">Asian Online team chess: India women in joint lead</a></li>
+                                            <li><a href="#">Asian Online Team Chess: Indian men in 4th spot</a></li>
+                                            <li><a href="#">Raunak wields his weapons well, wins Shaastra</a></li>
+                                            <li><a href="#">Indian chess player Leon Mendonca wins tournament in</a></li>
+                                            <li><a href="#">Asian online team chess: India women triumph, men</a></li>
+                                            <li><a href="#">Indian women win gold at Asian Nations online chess;</a></li>
+                                            <li><a href="#">Gibraltar to host the final stage of the women's</a></li>
+                                            <li><a href="#">Carlsen, Nakamura to headline Speed Chess event</a></li>
+                                            <li><a href="#">Svidler makes cut for Champions Chess Tour</a></li>
+                                            <li><a href="#">Asian online team chess: India men and women enter</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Boxing</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">WBA champion Hiroto Kyoguchi catches coronavirus,</a></li>
+                                            <li><a href="#">Amit Panghal, Sanjeet strike gold at French boxing</a></li>
+                                            <li><a href="#">Exhibition will be real thing, say Mike Tyson and</a></li>
+                                            <li><a href="#">Indian boxing team begins training in Italy</a></li>
+                                            <li><a href="#">Indian women boxers in quarantine at SAI's hostel in</a></li>
+                                            <li><a href="#">Lovlina tests positive for coronavirus, misses</a></li>
+                                            <li><a href="#">News of Olympics postponement came as a shock: Mary</a></li>
+                                            <li><a href="#">Indian women boxers, barring Lovlina, leave for</a></li>
+                                            <li><a href="#">Heavyweight champion Anthony Joshua to face Kubrat</a></li>
+                                            <li><a href="#">Indian boxing's European tour: Four Covid tests in</a></li>
+                                            <li><a href="#">Kubrat Pulev says Anthony Joshua fight is set for</a></li>
+                                            <li><a href="#">Pulev confirms Joshua bout set for December 12 in</a></li>
+                                            <li><a href="#">My target is to win gold in 2024 Olympics, says</a></li>
+                                            <li><a href="#">Boxers to head to Europe for Olympic training; will</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Golf</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Anirban Lahiri misses Top-10, ends T-11 at Bermuda</a></li>
+                                            <li><a href="#">Brian Gay turns back the clock to win Bermuda</a></li>
+                                            <li><a href="#">Shinkwin wins maiden title with playoff victory in</a></li>
+                                            <li><a href="#">LPGA to start 2021 season with spectators present at</a></li>
+                                            <li><a href="#">Lahiri gives away front nine gains at Bermuda</a></li>
+                                            <li><a href="#">Golf action to return after 8 months; Rashid looks</a></li>
+                                            <li><a href="#">Golfer Shinkwin finds water cans off the tee</a></li>
+                                            <li><a href="#">Viraj excited as PGTI is set for the fairways again</a></li>
+                                            <li><a href="#">New Zealand Open cancelled because of COVID-19</a></li>
+                                            <li><a href="#">Aim is always to see your name up the leaderboard,</a></li>
+                                            <li><a href="#">Aim is always to see your name high up the</a></li>
+                                            <li><a href="#">Chawrasia, Shubhankar set for inaugural Cyprus Open</a></li>
+                                            <li><a href="#">Anirban Lahiri benefits from going back to basics</a></li>
+                                            <li><a href="#">Golf: Masters Par 3 contest cancelled at</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Snooker-Billiords</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Born without arms, Pakistani snooker player masters</a></li>
+                                            <li><a href="#">Sport can wait, says cue sports champ Pankaj Advani</a></li>
+                                            <li><a href="#">O'Sullivan handed bye after opponent tests positive</a></li>
+                                            <li><a href="#">Worked on my physical fitness to win back-to-back</a></li>
+                                            <li><a href="#">Unfortunate but understandable: Pankaj Advani on</a></li>
+                                            <li><a href="#">2020 World Snooker Championship with Sourav Kothari</a></li>
+                                            <li><a href="#">Dominant O'Sullivan on brink of sixth world snooker</a></li>
+                                            <li><a href="#">Love for competing keeps me going, not just to win</a></li>
+                                            <li><a href="#">Ronnie O'Sullivan rockets to sixth snooker world</a></li>
+                                            <li><a href="#">O'Sullivan on top in world snooker final after</a></li>
+                                            <li><a href="#">O'Sullivan seeks Good Cue Action from Amazon after</a></li>
+                                            <li><a href="#">Tearful Wilson reaches World Snooker final after</a></li>
+                                            <li><a href="#">Selby and O'Sullivan finely poised ahead of</a></li>
+                                            <li><a href="#">Selby puts pressure on O'Sullivan in World Snooker</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Cycling</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Carthy storms to Vuelta stage win as Carapaz</a></li>
+                                            <li><a href="#">Tour Down Under's 2021 race cancelled due to</a></li>
+                                            <li><a href="#">Gaudu takes maiden grand tour win as Roglic retains</a></li>
+                                            <li><a href="#">No ceremony but plenty of buzz around 2021 Tour de</a></li>
+                                            <li><a href="#">Vuelta start delayed after riders protest over</a></li>
+                                            <li><a href="#">Roglic back in red after third Vuelta stage win</a></li>
+                                            <li><a href="#">Ackermann wins Vuelta stage 9 after Bennett</a></li>
+                                            <li><a href="#">Roglic surges back into Vuelta contention with</a></li>
+                                            <li><a href="#">Woods wins Vuelta stage seven as Carapaz keeps</a></li>
+                                            <li><a href="#">Vuelta rest day coronavirus tests all negative</a></li>
+                                            <li><a href="#">Carapaz takes Vuelta lead as Roglic struggles</a></li>
+                                            <li><a href="#">Britain's Geoghegan Hart wins Giro d'Italia as</a></li>
+                                            <li><a href="#">Bennett sprints to Vuelta stage four victory, Roglic</a></li>
+                                            <li><a href="#">Cerny wins shortened 19th Giro d'Italia stage after</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Wrestling</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">USA Wrestling pulls out of World Championships</a></li>
+                                            <li><a href="#">'All 12 wrestlers at national camp test negative,</a></li>
+                                            <li><a href="#">National camp for women wrestlers to begin on</a></li>
+                                            <li><a href="#">India's Dangal wrestlers forced to take odd jobs for</a></li>
+                                            <li><a href="#">It was a 'tough' time: Narsingh Yadav after</a></li>
+                                            <li><a href="#">2016 Doping: Wrestler Narsingh still feels it was</a></li>
+                                            <li><a href="#">Wrestlers must be more careful, camp must go on:</a></li>
+                                            <li><a href="#">WFI asks 12 wrestlers to return Khelo India medals,</a></li>
+                                            <li><a href="#">Wrestler Krishan now stable, advised home</a></li>
+                                            <li><a href="#">Athletes' union wants Iran expelled from sport if</a></li>
+                                            <li><a href="#">Arjuna awardee wrestler Rahul Aware tests Covid</a></li>
+                                            <li><a href="#">Covid-19: Wrestler Deepak Punia discharged from</a></li>
+                                            <li><a href="#">Wrestler Ravi Dahiya pulls out of camp due to exams</a></li>
+                                            <li><a href="#">Deepak Punia and two other wrestlers test Covid</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Videos</a>
+                    <div class="blok">
+                        <ul class="menu-area menu-area2">
+                            <ul>
+                                <li><a href="#">Top</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="\theNewsImg\alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Trending</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                               
+                                                <a href=https://www.youtube.com/watch?v=KCo1eyN7L_g target="-blank"><img src="/tohara.jpg" alt=""><i class="fa fa-youtube-play"></i></a>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Entertainment</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Astrology</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Amazing But True</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Sports</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Food</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Tech</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Auto</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Health</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Lifestyle</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li><a href="#">Music</a>
+                                    <div class="block2">
+                                        <div class="photo-video">
+                                            <div class="photo-videos">
+                                                <img src="/zaranurai.jpg" alt="">
+                                                <h5>Zara Nurai</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/al ain zoo.jpg" alt="">
+                                                <h5>Al Ain Zoo</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/bab.jpg" alt="">
+                                                <h5>Bab Al Qasr</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/rosewood.jpg" alt="">
+                                                <h5>Rosewood Abudhabi</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/founders.jpg" alt="">
+                                                <h5>Founders residency</h5>
+                                            </div>
+                                            <div class="photo-videos">
+                                                <img src="/alain.jpg" alt="">
+                                                <h5>Al Ain UAE</h5>
+                                            </div>
+                                        </div>
+                                </li>
+
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Entertainment</a>
+                    <div class="blok">
+                        <ul class="menu-area menu-area2">
+                            <ul>
+                                <li><a href="#">Hindi</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Pics: Kangana invites Himachal Pradesh CM</a></li>
+                                            <li><a href="#">Hrithik celebrates 7 years of ‘Krrish 3’</a></li>
+                                            <li><a href="#">HBD, Diana: B-town stars pour in wishes</a></li>
+                                            <li><a href="#">When Sara shared a pic of her bunnies</a></li>
+                                            <li><a href="#">Subhash Ghai on working with Shah Rukh Khan</a></li>
+                                            <li><a href="#">Chitrangda on fashion, food and stalking</a></li>
+                                            <li><a href="#">Ira Khan opens up about her parents’ divorce</a></li>
+                                            <li><a href="#">Did Akshay Kumar drop a hint about Kiara Advani and</a></li>
+                                            <li><a href="#">Exclusive Viveck Vaswani on his friendship with</a></li>
+                                            <li><a href="#">Aayush Sharma and Ahil are shelling out major</a></li>
+                                            <li><a href="#">I was rejected for a film for being a TV actor: Shiv</a></li>
+                                            <!-- <li><a href="#">Mika Singh: Honthon Pe Bas is an iconic song and</a></li> -->
+                                            <!-- <li><a href="#">Ananya Panday shares a major throwback picture of</a></li>
+                                            <li><a href="#">Exclusive Sana Saeed on Shah Rukh Khan: Who</a></li> -->
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Englsih</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">BTS unveils lead single 'Life Goes On' from upcoming</a></li>
+                                            <li><a href="#">Scarlett Johansson's secret wedding to Colin Jost</a></li>
+                                            <li><a href="#">Scarlett Johansson marries Colin Jost in an intimate</a></li>
+                                            <li><a href="#">Brad Pitt and model Nicole Poturalski split after</a></li>
+                                            <li><a href="#">OnThisDay Chadwick Boseman was introduced as Black</a></li>
+                                            <li><a href="#">BTS member Suga's childhood pic goes viral</a></li>
+                                            <li><a href="#">Johnny Depp loses UK libel case over wife-beater</a></li>
+                                            <li><a href="#">'Star Trek' composer Michael Giacchino comes up with</a></li>
+                                            <li><a href="#">Kevin Costner: Sean Connery was a man's man</a></li>
+                                            <li><a href="#">Halloween 2020: Gigi Hadid and Zayn Malik’s first</a></li>
+                                            <li><a href="#">Former James Bond actor Sean Connery passes away at</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Tamil</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Vijay’s Master may not release for Deepavali</a></li>
+                                            <li><a href="#">Shankar to do a multi starrer before Indian 2?</a></li>
+                                            <li><a href="#">STR inspired by Chirstiano Ronaldo's physique</a></li>
+                                            <li><a href="#">First look of Arya's Salpetta soon</a></li>
+                                            <li><a href="#">Ponniyin Selvan to resume by mid-November</a></li>
+                                            <li><a href="#">Karunaas and his wife in a stylish photoshoot</a></li>
+                                            <li><a href="#">Actor Raju Jeyamohan enters wedlock</a></li>
+                                            <li><a href="#">A surprise from Kavin's Lift is on the way</a></li>
+                                            <li><a href="#">STR learns Bharatanatyam from Saranya Mohan</a></li>
+                                            <li><a href="#">‘Kadaram Kondan' actor Abi Haasan’s next film to be</a></li>
+                                            <li><a href="#">KS Ravikumar to remake superhit Malayalam film</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Telugu</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">We are so compatible I know we will have a happy</a></li>
+                                            <li><a href="#">Spotted: Kiccha Sudeep looking like a rock-star as</a></li>
+                                            <li><a href="#">Kajal Aggarwal and Gautam Kitchlu’s engagement</a></li>
+                                            <li><a href="#">Kajal Aggarwal and Gautam Kitchlu: Nisha Aggarwal</a></li>
+                                            <li><a href="#">Kajal Aggarwal's hubby Gautam Kitchlu shares a</a></li>
+                                            <li><a href="#">Pawan Kalyan joins the sets of Vakeel Saab to wrap</a></li>
+                                            <li><a href="#">Feels so good to be back on sets: Vishwak Sen joins</a></li>
+                                            <li><a href="#">For the first time, Adah Sharma dubs in Telugu for</a></li>
+                                            <li><a href="#">Telangana BJP chief Bandi Sanjay Kumar warns SS</a></li>
+                                            <li><a href="#">HappyBirthdayNivethaThomas: Excited fans cannot</a></li>
+                                            <li><a href="#">Nivetha Thomas explains her birthday mood in new</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Malayalam</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Happy Birthday Kunchacko Boban: Take a look at his</a></li>
+                                            <li><a href="#">Happy Birthday Kunchacko Boban: Manju Warrier, Joju</a></li>
+                                            <li><a href="#">Kunchacko Boban’s Nizhal’s first look poster has him</a></li>
+                                            <li><a href="#">Sai Pallavi roped in for the Telugu remake of</a></li>
+                                            <li><a href="#">Blessy talks about the challenges of adapting</a></li>
+                                            <li><a href="#">Big Interview: Shibla Fara on filming for her next</a></li>
+                                            <li><a href="#">Omar Lulu ropes in influencer couple Jumana-Ajmal</a></li>
+                                            <li><a href="#">First look poster of Kunchacko Boban starrer</a></li>
+                                            <li><a href="#">Nikki Galrani looks like a goddess in THIS ethnic</a></li>
+                                            <li><a href="#">An adorable video that shows Kunchacko Boban’s inner</a></li>
+                                            <li><a href="#">Neeraj Madhav’s new song ‘Fly’ is here</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Kannada</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Nikita Thukral is back in front of the camera</a></li>
+                                            <li><a href="#">Diganth Manchale gets busy with back-to-back films</a></li>
+                                            <li><a href="#">Shraddha Srinath urges people to make small but</a></li>
+                                            <li><a href="#">Dayal Padmanabhan releases character poster of Veena</a></li>
+                                            <li><a href="#">After Anup Bhandari, Pushkara Mallikarjunaiah</a></li>
+                                            <li><a href="#">Nabha Natesh’s role in Andhadhun remake to have a</a></li>
+                                            <li><a href="#">Rashmika Mandanna speaks up against cyber bullies</a></li>
+                                            <li><a href="#">Music heartthrob Armaan Malik unplugged</a></li>
+                                            <li><a href="#">From Meghana Raj Sarja heading home with her son to</a></li>
+                                            <li><a href="#">Shivarajkumar to play Ashwatthama in a mythological</a></li>
+                                            <li><a href="#">Producer BN Gangadhar’s son Shreyas gets married</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Bengali</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Soumitra Chatterjee’s condition shows marginal</a></li>
+                                            <li><a href="#">For us, Durga Puja is a lot more than just a</a></li>
+                                            <li><a href="#">Kolkata International Film Festival shifted to</a></li>
+                                            <li><a href="#">This year Lakshmi Puja is different for Arpita</a></li>
+                                            <li><a href="#">Here’s how Anusha spent this Durga Puja</a></li>
+                                            <li><a href="#">This Puja was all about adda at home for Manali</a></li>
+                                            <li><a href="#">Sabyasachi: I missed out on working with Shah Rukh</a></li>
+                                            <li><a href="#">HappyBirthdaySRK: Darshana Banik remembers her fan</a></li>
+                                            <li><a href="#">Riya Sen bats for a NoCrackersDiwali</a></li>
+                                            <li><a href="#">Anindya Chatterjee in Subhrajit Mitra’s next film</a></li>
+                                            <li><a href="#">Aparajita urges all to celebrate a NoCrackerDiwali</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Punjabi</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Gippy Grewal on SRK's birthday: Big Hug from Punjab</a></li>
+                                            <li><a href="#">Cute video of Gippy Grewal’s son Gurbaaz Grewal</a></li>
+                                            <li><a href="#">Diljit Dosanjh, Ammy Virk and other Punjabi stars</a></li>
+                                            <li><a href="#">Ammy Virk and Sargun Mehta 's dance face-off</a></li>
+                                            <li><a href="#">Pollywood Roundup: From ‘Golak Bugni Bank Te Batua</a></li>
+                                            <li><a href="#">BigInterview: “I would like to go in the future and</a></li>
+                                            <li><a href="#">Trending Tunes: 'Welcome To My Hood' to 'Clash',</a></li>
+                                            <li><a href="#">Shad Gi: Parmish Verma shares the teaser of his</a></li>
+                                            <li><a href="#">Diljit Dosanjh’s Halloween post is all things fun</a></li>
+                                            <li><a href="#">Mandy Takhar shares a sweet birthday post for her</a></li>
+                                            <li><a href="#">Neeru Bajwa’s no-makeup picture proves beauty lies</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Marathi</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Photos: Prajakta Mali looks drop-dead gorgeous in</a></li>
+                                            <li><a href="#">Sonali Kulkarni pens a special birthday post for</a></li>
+                                            <li><a href="#">Photo: Urmilla Kothare looks radiant in her</a></li>
+                                            <li><a href="#">Upendra Limaye: Theatre nurtured my passion for</a></li>
+                                            <li><a href="#">Sai Tamhankar: Starting something new has kept me</a></li>
+                                            <li><a href="#">Couple goals Mrunmayee Deshpande's latest selfie</a></li>
+                                            <li><a href="#">Shruti Marathe looks stunning as she flaunts her</a></li>
+                                            <li><a href="#">Mangesh Borgaonkar becomes a father for the second</a></li>
+                                            <li><a href="#">Suvrat wraps up Choomantar shoot; all set to return</a></li>
+                                            <li><a href="#">Here's how Parth Bhalerao spend his off day</a></li>
+                                            <li><a href="#">Prathmesha Parab dons a drag avatar for 'Doctor'</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Bhojpuri</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Bhojpuri songs abusing Rhea Chakraborty float on</a></li>
+                                            <li><a href="#">Bhojpuri actress Anupama Pathak commits suicide</a></li>
+                                            <li><a href="#">Aamrapali Dubey, Vinay Anand, Poonam Dubey and other</a></li>
+                                            <li><a href="#">Sambhavna Seth's husband rushes her to the hospital;</a></li>
+                                            <li><a href="#">Ravi Kishan, Monalisa, Pawan Singh and other</a></li>
+                                            <li><a href="#">From Monalisa to Aamrapali Dubey: A look at Bhojpuri</a></li>
+                                            <li><a href="#">Akshara Singh donates Rs 1 lakh to the Chief</a></li>
+                                            <li><a href="#">Did Bhojpuri actress Sapna Gill make her</a></li>
+                                            <li><a href="#">Bhojpuri actress Priyanka Pandit looks pretty in her</a></li>
+                                            <li><a href="#">Sambhavna Seth shares a candid click with husband</a></li>
+                                            <li><a href="#">Ritu Singh wraps up the shoot of 'Mere Papa Ki Shadi'</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Gujrati</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Yash Soni, Janki Bodiwala and Raunaq Kamdar starrer</a></li>
+                                            <li><a href="#">Singer Bhumik Shah all set to release a Dakla for</a></li>
+                                            <li><a href="#">Bollywood has always been a soft target: Supriya</a></li>
+                                            <li><a href="#">Parth Oza on Hathras gangrape says, Are we bold</a></li>
+                                            <li><a href="#">We hope cinemas will reopen soon with all safety</a></li>
+                                            <li><a href="#">Khushi Shah kickstarts her next project, shares</a></li>
+                                            <li><a href="#">Director Viral Shah announces 'Golkeri 2' after the</a></li>
+                                            <li><a href="#">Gujarati thriller flick 'Rahasyam' first look is</a></li>
+                                            <li><a href="#">Esha Kansara's latest post proves she is a true</a></li>
+                                            <li><a href="#">PIC: Deeksha Joshi recreates Princess Leia this</a></li>
+                                            <li><a href="#">GUJARATI CINEMA’S BIGGEST SUPERSTAR, FANTASTIC</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Tech</a>
+                    <div class="blok">
+                        <ul class="menu-area menu-area2">
+                            <ul>
+                                <li><a href="#">Gadget News</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Apple iCloud services are now back online after brief </a></li>
+                                            <li><a href="#">Samsung to launch Exynos 1080 chipset on Novem</a></li>
+                                            <li><a href="#">Samsung makes fun of iPhone 12; tells Apple to 'Think B</a></li>
+                                            <li><a href="#">Xiaomi may launch a new power bank on Nove</a></li>
+                                            <li><a href="#">Vivo V20 SE with triple rear camera launched at Rs </a></li>
+                                            <li><a href="#">Asus announces season 2 of Battle of Gods tournament on Call of Duty </a></li>
+                                            
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Tech News</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Apple iCloud services are now back online after brief outage</a></li>
+                                            <li><a href="#">Google Meet gets virtual background feature, here’s how to enable it</a></li>
+                                            <li><a href="#">Samsung to launch Exynos 1080 chipset on November 12</a></li>
+                                            <li><a href="#">Vivo V20 vs Vivo V20 SE: How the two mid-range smartphones compare</a></li>
+                                            <li><a href="#">Facebook starts testing dark mode to iOS, here’s how to enable it</a></li>
+                                            <li><a href="#">Belgian telecoms company Proximus upgrades guidance</a></li>
+                                            
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Gadgets</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                           
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Reviews</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Poco C3 review: Does the job</a></li>
+                                            <li><a href="#">OnePlus 8T Review: A complete package</a></li>
+                                            <li><a href="#">Amazon FireTV Stick review: A worthy upgrade</a></li>
+                                            <li><a href="#">Samsung Galaxy Buds Live review: Stands out from the crowd</a></li>
+                                            <li><a href="#">Honor MagicBook 15 review: Value for money</a></li>
+                                            <li><a href="#">Philips 50-inch 50PUT6604 review: A lot to like</a></li>
+                                            
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Top Gadgets</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Best Feature phones in India</a></li>
+                                            <li><a href="#">5G smartphones in India 2020</a></li>
+                                            <li><a href="#">Best power bank under Rs 2,000</a></li>
+                                            <li><a href="#">Best smartphones in India</a></li>
+                                            <li><a href="#">Best Mobile Phones under Rs 15,000</a></li>
+                                            <li><a href="#">Best Phones under Rs.20,000</a></li>
+                                          
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Slideshows</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Disappearing messages feature comes to <br> WhatsApp: How to use and all other details</a></li>
+                                            <li><a href="#">Key features of new phones launched by <br> Apple, Samsung, Xiaomi, OnePlus, Google and others recently</a></li>
+                                            <li><a href="#">Indian Army’s WhatsApp-like chat app; new phones from <br> Realme, LG; Samsung, Asus cut prices of popular phones and other top tech news of the week</a></li>
+                                            <li><a href="#">Amazon sale: Up to Rs 41,400 discount on gaming laptops <br>from Asus, Acer, MSI, Lenovo and others</a></li>
+                                            <li><a href="#">10 things to know about Apple's 'recording-breaking' 2020</a></li>
+                                            
+                                           
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Videos</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">How To</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Facebook starts testing dark mode to iOS, here’s how to enable it</a></li>
+                                            <li><a href="#">How to take screenshot on Mac</a></li>
+                                            <li><a href="#">Self-publishing: How to get going on Amazon's Kindle Direct Publishing platform</a></li>
+                                            <li><a href="#">How to edit a PDF document offline for free</a></li>
+                                            <li><a href="#">How to enable cross-platform chat and manage privacy on Facebook and Instagram</a></li>
+                                            <li><a href="#">How to use the new editing tools in Google Photos</a></li>
+                    
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown"><a href="#">Lifestyle</a>
+                    <div class="blok">
+                        <ul class="menu-area menu-area2">
+                            <ul>
+                                <li><a href="#">Relationship</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Health & Fittness</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Parenting</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Beauty</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Recipes</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Events</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Spotlight</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Food News</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Travel</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Books</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Home & Garden</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Fashion</a>
+                                    <div class="block2">
+                                        <ul class="sub-menu">
+                                            <li><a href="#">List 1</a></li>
+                                            <li><a href="#">List 2</a></li>
+                                            <li><a href="#">List 3</a></li>
+                                            <li><a href="#">List 4</a></li>
+                                            <li><a href="#">List 5</a></li>
+                                            <li><a href="#">List 6</a></li>
+                                            <li><a href="#">List 7</a></li>
+                                            <li><a href="#">List 8</a></li>
+                                            <li><a href="#">List 9</a></li>
+                                            <li><a href="#">List 10</a></li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="social-links">
+                <div class="search-box">
+                <input type="text" name="inputbox" class="input-sbox" placeholder="Search Here">
+                <label for="inputbox"><i class="fa fa-search" aria-hidden="true"></i></label>
+                </div>
+                <div class="btn">
+                    <input type="button" value="Sign In">
+                </div>
+
+
+            </div>
+            <div class="follow-us" id="FS">
+                <div>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <aside>
+            <ul>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">IPL 2020</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Bihar Election</a></li>
+                <li><a href="#">BiggBoss 14</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Gossip</a></li>
+                <li><a href="#">#RestartRight</a></li>
+                <li><a href="#">Vaccine Tracker</a></li>
+                <li><a href="#">Market</a></li>
+            </ul>
+
+        </aside>
+        
+
+        <div class="share-on" id="shareOn">
+            <!-- <h4>Share</h4> -->
+            <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i>
+                <div class="sharehover">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div>
+            </a>
+
+
+        </div>
+
+        <div class="heading">
+            <h3>Latest</h3>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="con-vertical-advt">
+            <div class="ver-adv-boxes">
+                <h5>Live Cricket score</h5>
+            </div>
+            <div class="ver-adv-boxes">
+                <h5>Advt boxes</h5>
+            </div>
+            <div class="ver-adv-boxes">
+                <h5>Market Watch</h5>
+            </div>
+            <div class="ver-adv-boxes">
+                <h5>Advt boxes</h5>
+            </div>
+            <div class="ver-adv-boxes">
+                <h5>Advt boxes</h5>
+            </div>
+            <div class="ver-adv-boxes">
+                <h5>Advt boxes</h5>
+            </div>
+        </div>
+
+        <div class="container-1">
+
+            <div class="c1b1">
+                <div class="headline">
+
+                    <h3>
+                        IPL 2020: Mumbai Indians and Chennai Super Kings start the season with a blockbuster
+                        clash</h3>
+                    <p>The much awaited IPL 2020 has been started in UAE. due to Covid-19 Pandemic IPL-2020 halted for a
+                        while..</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="c1b2">
+                <div class="headline">
+
+                    <h3>
+                        China-India Border Talks Remain Difficult Amid Map Burning Controversy</h3>
+                    <p>The recent burning of maps by China that portrayed Arunachal Pradesh as part of India
+                        has
+                        elicited....</p>
+                    <a href="#">Read More</a>
+                </div>
+
+            </div>
+
+            <div class="c1b3">
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\rhea.webp" alt="">
+                    <a href="#">Rhea Chakraborty’s 14-day judicial custody to end today</a>
+                </div>
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\shushant.webp" alt="">
+                    <a href="#">Sushant Singh Rajput death: NCB probe leads to Pak and drug cartelsr</a>
+                </div>
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\dineshkartik.webp" alt="">
+                    <a href="#">IPL 2020: If KKR do not start well, Eoin Morgan can replace Dinesh Karthik </a>
+                </div>
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\harivansh.webp" alt="">
+                    <a href="#">PM Modi praises Harivansh after suspended MPs snub tea offer</a>
+
+                </div>
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\wpabstract.jpg" alt="">
+                    <a href="#">Your heading is here with some description </a>
+                </div>
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\wpabstract.jpg" alt="">
+                    <a href="#">Your heading is here with some description </a>
+                </div>
+                <div class="c1b3rows">
+                    <img src="\theNewsImg\wpabstract.jpg" alt="">
+                    <a href="#">Your heading is here with some description </a>
+                </div>
+            </div>
+            <div class="c1b4">
+                <div class="c1b4advt">
+                    <h2>Advertisement Here</h2>
+                    <!-- <div class="advt-box">
+
+                    </div> -->
+                </div>
+                <div class="c1b4box c1b4box1">
+                    <div>
+                        <a href="#">
+                            <h4>Democracy is ashamed of govt’s ‘death warrant’ against farmers: Rahul Gandhi on farm
+                                bills
+                            </h4>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="c1b4box c1b4box2">
+                    <div>
+                        <a href="#">
+                            <h4>Don’t want to say anything political: Rajnath on no-confidence motion</h4>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="c1b4box c1b4box3">
+                    <div>
+                        <a href="#">
+                            <h4>After ruckus in Rajya Sabha, Venkaiah Naidu to take a call on unruly behaviour of
+                                MPs</h4>
+                        </a>
+                    </div>
+
+
+
+                </div>
+                <div class="c1b4box c1b4box4">
+                    <div>
+                        <a href="#">
+                            <h4>Why Yogi is wrong about the Mughals, writes Karan Thapar</h4>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="c2b1">
+
+            </div>
+            <div class="c2b2-3 c2b2">
+                <img src="\theNewsImg\ipl-col-1.webp" alt="">
+                <a href="#">
+                    <h2>RR vs CSK IPL 2020 Match Day Live Updates: 3 Milestones MS Dhoni Could Reach in Today's Match
+                    </h2>
+                </a>
+                <p>RR vs CSK Predicted XI Live Updates IPL 2020: BCCI's secretary Jay Shah too took to Twitter to
+                    announce the feat. "Opening match of #Dream11IPL sets a new record! As per BARC, an u..</p>
+                    <div class="sport-box">
+                        <h4>sport news place</h4>
+                    </div>
+            </div>
+            <div class="c2b2-3 c2b3">
+                <img src="\theNewsImg\ipl-col-2.webp" alt="">
+                <a href="#">
+                    <h2>IPL 2020: Rajasthan Royals vs Chennai Super Kings Preview - No Jos Buttler for RR, CSK Seek
+                        Second Win</h2>
+                </a>
+                <p>After Abu Dhabi and Dubai, the Indian Premier League 2020 bandwagon is set to move to Sharjah
+                    when Chennai Super Kings take on Rajasthan Royals on Tuesday.</p>
+                    <div class="sport-box">
+                        <h4>sport news place</h4>
+                    </div>
+
+            </div>
+            <div class="c2b4">
+                <div class="c2b4r">
+                    <img src="\theNewsImg\rohitsharma.webp" alt="">
+                    <a href="#">
+                        IPL 2020: Kolkata Knight Riders vs Mumbai Indians Preview - Powerpacked Kolkata Batting Look to
+                        Hurt Slow Starters Mumbai
+                    </a>
+                </div>
+                <div class="c2b4r">
+                    <img src="\theNewsImg\sanju samson.webp" alt="">
+                    <a href="#">IPL 2020: All I Had to do Was to Give Sanju Samson the Strike, Says Steve Smith
+                    </a>
+                </div>
+                <div class="c2b4r"><img src="\theNewsImg\mi vs kkr.webp" alt="">
+                    <a href="#">IPL 2020: Match 5 Between Kolkata Knight Riders and Mumba Indians, Abu Dhabi Weather
+                        Forecast and Pitch Report for Kolkata Knight Riders vs Mumbai Indians – September 23</a></div>
+                <div class="c2b4r"> <img src="\theNewsImg\ipl1.webp" alt="">
+                    <a href="#">
+                        IPL 2020: KXIP vs RCB, Match 6 Schedule and Match Timings in India: When and Where to Watch
+                        Kings XI Punjab vs Royal Challengers Bangalore Live Streaming Online</a></div>
+                <div class="c2b4r"><img src="\theNewsImg\ipl2.webp" alt="">
+                    <a href="#">
+                        KXIP vs RCB Dream11 Predictions, IPL 2020, Kings XI Punjab vs Royal Challengers Bangalore:
+                        Playing XI, Cricket Fantasy Tips</a></div>
+                <div class="c2b4r"><img src="\theNewsImg\ipl3.webp" alt="">
+                    <a href="#">IPL 2020: Kings XI Punjab vs Royal Challengers Bangalore Preview – Two Batting
+                        Powerhouses Up Against Each Other</a></div>
+
+            </div>
+        </div>
+        <!-- hot and trending row -->
+        <div class="c3r1">
+            <h2>Hot & Trending</h2>
+        </div>
+        <div class="container-3">
+
+            <div class="c3boxes">
+                <img src="\theNewsImg\football.webp" alt="">
+                <div>
+                    <h2>Football</h2>
+                    <a href="#">
+                        <h3>
+                            Football Transfer News Live Updates: Kerala Blasters Going for Defensive Solidit...</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\buzz1.jpg" alt="">
+                <div>
+                    <h2>Buzz</h2>
+                    <a href="#">
+                        <h3>
+                            Arati Saha, Today's Google Doodle, Was The First Asian Woman to Swim Across the ...</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\techapple.webp" alt="">
+                <div>
+                    <h2>Tech</h2>
+                    <a href="#">
+                        <h3>
+                            Apple Has Made Big Privacy Changes With iOS 14 That Is Leaving Instagram & Faceb....
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\movies2.webp" alt="">
+                <div>
+                    <h2>Movies</h2>
+                    <a href="#">
+                        <h3>
+                            Poonam Pandey Recounts Assault By Husband Sam Bombay: He Punched Me in Face, Kne...</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\Cricket1.webp" alt="">
+                <div>
+                    <h2>Cricket</h2>
+                    <a href="#">
+                        <h3>
+                            WATCH - On This Day: India Beat Pakistan in Final to Lift Maiden WT20 13 Years A...</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\buzz3.jpg" alt="">
+                <div>
+                    <h2>Buzz</h2>
+                    <a href="#">
+                        <h3>
+                            Pat Cummins Smoking Jasprit Bumrah for Four Sixes in an Over Proves Cricket is a...</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\techhh.webp" alt="">
+                <div>
+                    <h2>Tech</h2>
+                    <a href="#">
+                        <h3>
+                            Redmi 9i Sale in India Today Via Flipkart, Mi.com: Price, Offers, Specs and More</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\janhavi.webp" alt="">
+                <div>
+                    <h2>Movies</h2>
+                    <a href="#">
+                        <h3>
+                            Janhvi Kapoor and Angad Bedi Dance to the Tunes of Anil Kapoor's One Two Ka Four</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\obama.webp" alt="">
+                <div>
+                    <h2>Buzz</h2>
+                    <a href="#">
+                        <h3>
+                            Barack Obama Wants You to Text Him to Chit-chat about Voting</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\lifestyle1.webp" alt="">
+                <div>
+                    <h2>Lifestyle</h2>
+                    <a href="#">
+                        <h3>Kasautii Zindagii Kay Star Erica Fernandes Poses in White Shimmery Saree, See St....
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <img src="\theNewsImg\tech4.webp" alt="">
+                <div>
+                    <h2>Tech</h2>
+                    <a href="#">
+                        <h3>
+                            Rs 53,02,800: The Most Expensive Thing On The Apple India Online Store Is A Supe...</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="c3boxes">
+                <h3>Advertisement Here</h3>
+            </div>
+        </div>
+        <div class="container-4">
+            <div class="c4-col-1 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>MOVIES</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\tapasee.webp" alt="">
+                    <a href="#">Tapsee Pannu,Sisters Had Fun Aplenty on Maldives Vacay and This Video is Proof </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Amrita Rao is Going to be Mother Soon, Actress Expecting Her First Child with RJ Anmol</h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Bigg Boss 14 Day 9 Written Updates: Sara Gurpal Evicted by Sidharth Shukla, Gauahar and
+                        Hina Khan
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Parvathy Resigns from AMMA, Criticises Edavela Babu in Strongly-worded Note
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Kangana Lashes Out at Bollywood Civil Suit Against 'Defamatory' Reporting: 'File a Case
+                        on Me Also'
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Movies Stories</a></h3>
+                </div>
+
+            </div>
+            <div class="c4-col-2 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>TECH</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="theNewsImg/iphone.webp" alt="">
+                    <a href="#"> Daily Objects Confirms Apple iphone 12 Cases And Indiactes Four iphone Models Are
+                        Coming</a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Apple iPhone 12 Launch Today: How to Live Stream Apple's 'Hi, Speed' Event
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Apple iPhone 12 Launch Today: Everything We Think We Know So Far
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">HP Elite Dragonfly Review: A Laptop So Cool, It Shouldn't Be Whiling Away Beautiful Days
+                        In Meetings
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Reliance JioFiber Effect? Airtel Xstream Broadband Bundling Free Amazon Prime
+                        Subscription, Again
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Tech Stories</a></h3>
+                </div>
+            </div>
+            <div class="c4-col-3 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>INDIA</h4>
+                </div>
+                <div class="c4-col-img">
+                    <img src="theNewsImg/india.webp" alt="">
+                    <a href="#"> Covid-19 Silver Lining: India Records 55,342 New Cases, Lowest in Over Two Months</a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Aarey Metro Car Shed Shifting 'Unwise', Will Affect Metro Project & Transport: Urban
+                        Planners
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">'Chip' Made of Cow Dung Reduces Radiation from Mobile Phones: Rashtriya Kamdhenu Aayog
+                        Chief
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Media Trying to Influence Judges, Outcome of Cases Amounts to Contempt, Attorney General
+                        Tells SC
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Farm Reforms Will Help Turn Farmers into Entrepreneurs: PM Modi
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More India Stories</a></h3>
+                </div>
+
+            </div>
+            <div class="c4-col-4 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>CRICKET</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="theNewsImg/dhoni.webp" alt="">
+                    <a href="#"> Teenager Detained For Rape Threat Against MS Dhoni’s Daughter</a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Pakistan Announce Revised Itinerary for Home Series vs Zimbabwe
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">BCCI Announces Squads for Women’s T20 Challenge, Harmanpreet Kaur, Smriti Mandhana,
+                        Mithali Raj Named Captains
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Shoaib Malik Becomes First Asian Cricketer to Score 10,000 T20 Runs
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">I Feel Uncomfortable Being Compared With Rohit Sharma: Pakistan Batsman Haider Ali
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More cricket Stories</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-4 container-5">
+            <div class="c4-col-1 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>SPORTS</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\ronaldo.webp" alt="">
+                    <a href="#"> Christiano Ronaldo tests posirtive for Covid-19, will miss Portugals Nations League
+                        Clash vs Sweden</a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Denmark Open: Lakshya Sen Beats Christo Popov 21-9 21-15 as Badminton Returns after Covid-19
+                            Halt</h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Senior Wrestling World Championships in Belgrade from December 12</h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4> Have to Peak at Right Time to Perform Well at Tokyo Olympics, Says Gurjit Kaur</h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>SAI, NRAI to Jointly Take Responsibility for National Shooting Camp</h4>
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Sport Stories</a></h3>
+                </div>
+
+            </div>
+            <div class="c4-col-2 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>AUTO</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\autocar.webp" alt="">
+                    <a href="#">
+                        <h4>2020 Volkswagen Polo TSI Review: Driver's Delight, But Does it Make Sense in a Sea of SUVs?
+                            <h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Greenfield Airport in Arunachal Pradesh to Get Rs 650 Crore For Development: AAI<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Delhi Air Quality 2020: Top Electric Cars You Can Buy in India to Reduce the Pollution<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>2020 TVS Apache RR 310 Review: Case Study For Versatility on Track and City<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Arvind Kejriwal Led Delhi Govt Issues Notification for New EV Policy, Valid for 3 Years<h4>
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Auto Stories</a></h3>
+                </div>
+            </div>
+            <div class="c4-col-3 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>LIFESTYLE</h4>
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\lifestylenew.webp" alt="">
+                    <a href="#">
+                        <h4>Shahid Kapoor's 'Mood' Video Draws Ishaan Khatter's Quip, 'This be Real You Behind
+                            Smouldering Selfies'<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Is Sore Throat a Confirmed Symptom of Coronavirus Infection?<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>What is Long Covid and How Can One Deal with it<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>New CDC Research Suggests Face Masks and Gaiters More Effective Than Face Shields<h4>
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        <h4>Jessica Alba: Post Covid-19 if Anybody Stays at Home it'll Probably be the Man<h4>
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Lifestyle Stories</a></h3>
+                </div>
+
+            </div>
+            <div class="c4-col-4 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>WORLD</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\world.webp" alt="">
+                    <a href="#">Johnson & Johnson Pauses Covid-19 Vaccine Trials Due to Unexplained Illness in
+                        Participant</a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Pakistan Announce Revised Itinerary for Home Series vs Zimbabwe
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">BCCI Announces Squads for Women’s T20 Challenge, Harmanpreet Kaur, Smriti Mandhana,
+                        Mithali Raj Named Captains
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Shoaib Malik Becomes First Asian Cricketer to Score 10,000 T20 Runs
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">I Feel Uncomfortable Being Compared With Rohit Sharma: Pakistan Batsman Haider Ali
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More cricket Stories</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-4 container-6">
+            <div class="c4-col-1 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>WORLD</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\worldnew.webp" alt="">
+                    <a href="#">World Economy in Deep Recession in 2020, Growth to Be -4.4%, Predicts IMF
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">China Tests Entire City of Qingdao for Coronavirus After Country's First Local Outbreak
+                        Reported
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Bangladesh President Signs Ordinance on Capital Punishment in Rape Cases
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">
+                        European Union Countries Adopt Common Travel Guidelines Amid Pandemic
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Finland Moves to Update Sexual Offences Laws, Ban Sending Unsolicited Explicit Photos
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More world Stories</a></h3>
+                </div>
+
+            </div>
+            <div class="c4-col-2 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>BUSINESS</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\autocar.webp" alt="">
+                    <a href="#">Wipro Q2 Net Profit Dips 3.4% to Rs 2,465 Crore, Announces Rs 9,500-cr Buyback Plan
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Pandemic-driven Loan Recast to Take Gross Non-performing Assets to 11.5% by March:
+                        Report
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Govt Yet to Take Any Decision on Appealing in Vodafone Tax Arbitration Case
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Govt Hopes to Capture Festive Spirit with Incentive for Employees & Another Stimulus
+                        Package
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Amid Stalemate, Centre Permits 20 States to Raise Rs 68,825 Cr Via Borrowing to Meet
+                        GST Shortfall
+
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Business Stories</a></h3>
+                </div>
+            </div>
+            <div class="c4-col-3 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>POLITICS</h4>
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\politics.webp" alt="">
+                    <a href="#">Iltija Mufti, Omar Abdullah Express Relief after Mehbooba Mufti's Detention Comes to an
+                        End
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">'Khoda Pahaad, Nikla Chuha': Chidambaram Says Govt's Latest Stimulus is a Hoax of
+                        Exaggerated Numbers
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> CM Shivraj Singh Chouhan Says `Bhooke-Nange' Slur Shows Congress' Culture, Attitudes
+                        Toward the Poor
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Ahead of Amit Shah's Bengal Visit, Prashant Kishor Heads for Siliguri to Chalk out
+                        Trinamool Poll Strategy
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Congress Doesn't Want Intelligent Women, They Disrespected Me: Khushbu Sundar After
+                        Joining BJP
+
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#"> MORE POLITICS STORIES</a></h3>
+                </div>
+
+            </div>
+            <div class="c4-col-4 c4-cols">
+                <div class="c4-col-heading">
+                    <h4>FOOTBALL</h4>
+
+                </div>
+                <div class="c4-col-img">
+                    <img src="\theNewsImg\footballnew.webp" alt="">
+                    <a href="#">
+                        Cristiano Ronaldo Tests Positive for Covid-19, Will Miss Portugal's Nations League Clash vs
+                        Sweden
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Mohammedan SC Lodge Police Complaint Against Ex-coach Yan Law
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">I-League Qualifiers: FC Bengaluru United Face off against ARA FC
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#">Sandesh Jhingan Sends Signed ATK Mohun Bagan Jersey for Brazilian Legend's Coronavirus
+                        Relief Fund
+
+                    </a>
+                </div>
+                <div class="c4-col-news">
+                    <a href="#"> Seven Players, One Assistant Coach Test Positive for Covid-19 Ahead Of Indian Super
+                        League
+                    </a>
+                </div>
+                <div class="c4-col-more">
+                    <h3><a href="#">More Football Stories</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-7">
+            <div class="con-7-box-1">
+                <h3>TRENDING TOPICS</h3>
+                <div>
+                    <ul>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Neymar</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;VIVO 20</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;TRP Scann</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Coronavirus Vaccine</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Bigboss14</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Baba Ramdev</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Bihar Assembly Election 2020</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Mahendra Singh Dhoni</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;IPL 2020</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Air Pollution</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Apple iphone</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Employees Provident Fund</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Corona Virus In India</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Shushant Singh Rajput</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Gold Price Today</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="con-7-box-2">
+                <h3>HOT ON SOCIAL</h3>
+                <div>
+                    <ul>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Baba Ramdev Yoga On Elephant</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Tanishq Ad</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Pavitra Punia And Eijaz Khan</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Mirzapur 2</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Sony RSS</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Despacito Most Watched Video</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Ratan Tata</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Apple iPhone 12</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Ziva Dhoni</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Kangana Ranaut</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Baba KA Dhaba Impact</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Cleopatra Who</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Kangana's Thalaivi Look</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Sana Khan</a></li>
+                        <li><a href="#">&#187;&nbsp;&nbsp;Rahul Tewatia</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="con-7-box-3">
+                <h3>POPULAR CATEGORIES</h3>
+                <div>
+                    <ul>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Latest </a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Auto</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;IPL 2020</a></li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">&diams;&nbsp;&nbsp;India</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Buzz</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Movies</a></li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Politics</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Videos</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Bihar Election 2020</a></li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Entertainment</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Photos</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Lifestyle</a></li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Tech</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Health</a></li>
+                        <li><a href="#">&diams;&nbsp;&nbsp;Gossip</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="con-7-box-4">
+                <img src="theNewsImg/LogoPng3.png" alt="">
+                <!-- <h2>ABC News</h2> -->
+
+            </div>
+        </div>
+        <div class="container-8">
+            <div class="footer">
+                <div class="footer-1">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Site map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-1">
+                    <ul>
+                        <li><a href="#">Cookies Policy</a></li>
+                        <li><a href="#">Complaint Redressal</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Advertise with US</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="con-8-copyright">
+                <p> Copyright &nbsp;&copy; 2020,Abc,Xyz and co.Ltd. All rights are reserved</p>
+            </div>
+        </div>
+    </main>
+    <script src="ProjectNewsResponsive.js"></script>
+    <!-- <script type="text/javascript"> -->
+
+</body>
+
+</html>
